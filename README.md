@@ -1,6 +1,6 @@
 # chia-harvester-metrics
 
-Collects and exports useful metrics from the [Chia-Network/chia-blockchain](chia-blockchain) harvester.
+Collects and exports useful metrics from the [chia-blockchain](https://github.com/Chia-Network/chia-blockchain) harvester.
 
 ## Metrics Exported
 
