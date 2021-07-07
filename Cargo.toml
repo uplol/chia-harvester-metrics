@@ -1,0 +1,17 @@
+[package]
+name = "chia-harvester-metrics"
+version = "0.1.0"
+authors = ["Spencer Sharkey <spencer@sf-n.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1"
+chase = { version = "0.1", features = ["stream"] }
+chrono = { version = "0.4", features = ["serde"] }
+lazy_static = "1.4"
+prometheus = "0.12"
+regex = "1.5"
+serde_json = "1.0"
+structopt = "0.3"
+tokio = { version = "1", features = ["full"] }
+warp = "0.3"
